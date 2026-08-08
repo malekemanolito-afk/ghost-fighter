@@ -1,0 +1,26 @@
+{
+  "name": "ghost-fighter",
+  "version": "1.0.0",
+  "description": "A 2D pixel-art arcade fighting game with supernatural theme",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "keywords": [
+    "game",
+    "pixel-art",
+    "arcade",
+    "fighting",
+    "2d",
+    "canvas"
+  ],
+  "author": "Ghost Fighter Dev",
+  "license": "MIT"
+}
