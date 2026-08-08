@@ -1,21 +1,21 @@
-import { Renderer } from './game/Renderer.js';
-import { Input } from './game/Input.js';
-import { GameState } from './game/GameState.js';
-import { Camera } from './game/Camera.js';
-import { Collision } from './game/Collision.js';
-import { Player } from './entities/Player.js';
-import { Enemy } from './entities/Enemy.js';
-import { Boss } from './entities/Boss.js';
-import { Projectile } from './entities/Projectile.js';
-import { Particle } from './entities/Particle.js';
-import { CombatSystem } from './systems/CombatSystem.js';
-import { EnemySpawner } from './systems/EnemySpawner.js';
-import { ParticleSystem } from './systems/ParticleSystem.js';
-import { AudioSystem } from './systems/AudioSystem.js';
-import { HUD } from './ui/HUD.js';
-import { MainMenu } from './ui/MainMenu.js';
-import { PauseMenu } from './ui/PauseMenu.js';
-import { GameOverScreen } from './ui/GameOver.js';
+import { Renderer } from '../game/Renderer.js';
+import { Input } from '../game/Input.js';
+import { GameState } from '../game/GameState.js';
+import { Camera } from '../game/Camera.js';
+import { Collision } from '../game/Collision.js';
+import { Player } from '../entities/Player.js';
+import { Enemy } from '../entities/Enemy.js';
+import { Boss } from '../entities/Boss.js';
+import { Projectile } from '../entities/Projectile.js';
+import { Particle } from '../entities/Particle.js';
+import { CombatSystem } from '../systems/CombatSystem.js';
+import { EnemySpawner } from '../systems/EnemySpawner.js';
+import { ParticleSystem } from '../systems/ParticleSystem.js';
+import { AudioSystem } from '../systems/AudioSystem.js';
+import { HUD } from '../ui/HUD.js';
+import { MainMenu } from '../ui/MainMenu.js';
+import { PauseMenu } from '../ui/PauseMenu.js';
+import { GameOverScreen } from '../ui/GameOver.js';
 
 export class Game {
   constructor() {
